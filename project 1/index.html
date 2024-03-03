@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="h">Change the color of Browser </h1>
+    <div class="wrapper">
+     
+            <div class="box1" id="b">Red</div>
+            <div class="box2" id="b">Gray</div>
+            <div class="box3" id="b" >aquamarine</div>
+            <div class="box4" id="b">Brown</div>
+        </div>
+    
+<script>
+ document.querySelector(".box1").addEventListener("click" ,function(){
+  let a = document.querySelector(".wrapper");
+    a.style.backgroundColor = "red";
+ })
+ document.querySelector(".box2").addEventListener("click" ,function(){
+  let a = document.querySelector(".wrapper");
+    a.style.backgroundColor = "gray";
+ })
+ document.querySelector(".box3").addEventListener("click" ,function(){
+  let a = document.querySelector(".wrapper");
+    a.style.backgroundColor = "aquamarine";
+ })
+ document.querySelector(".box4").addEventListener("click" ,function(){
+  let a = document.querySelector(".wrapper");
+    a.style.backgroundColor = "brown";
+ })
+
+    </script>
+</body>
+</html>
